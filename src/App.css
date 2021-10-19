@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+.App {
+  text-align: center;
+}
+
+.navbar {
+  background-color: #35313a;
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.single-movie,
+.movie-form {
+  margin-bottom: 30px;
+}
+
+.movie-form input {
+  background-color: white !important;
+  border: none;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 5px;
+  box-shadow: 0 5px 10px rgb(47, 39, 66, 0.1)
+}
+
+.movie-form input:focus {
+  background-color: white !important;
+  border: none;
+  outline: none;
+  box-shadow: 0 0 10px rgb(47, 39, 66, 0.15)
+}
+
+.movie-form button {
+  background-color: #35313a;
+  padding: 15px 30px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.15s ease-in-out;
+}
+
+.movie-form button:hover {
+  background-color: #201c24;
+}
